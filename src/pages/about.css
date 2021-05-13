@@ -1,0 +1,32 @@
+.about-col{
+    background-color: wheat;
+    margin: 20px 10%;
+    padding: 3% 7%;
+}
+
+.innerStyle p, .innerStyle ul li{
+    color: rgb(33, 43, 54);
+    font-family: Roboto;
+    font-weight: normal;
+    line-height: 20px;
+}
+
+#root{
+    background-image: url("https://image.freepik.com/free-vector/bookshop-background-design_1212-306.jpg");
+}
+
+.innerStyle h3{
+    color: rgb(33, 43, 54);
+    font-family: Roboto;
+    font-weight: bold;
+    font-size: 17px;
+    line-height: 20px;
+}
+
+@media only screen and (max-width: 1000px) {
+    .about-col {
+        background-color: grey;
+        margin: 20px 5%;
+        padding: 3% 7%;
+    }
+}
